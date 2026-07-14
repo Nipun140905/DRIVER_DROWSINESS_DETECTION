@@ -9,7 +9,7 @@ continuous_thread = None
 def play_alarm_continuous():
     global alarm_playing
     while alarm_playing:
-        playsound('ALARM_FILE')
+        playsound(ALARM_FILE)
 
 def start_alarm():
     global alarm_playing, continuous_thread
