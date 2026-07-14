@@ -29,17 +29,16 @@ Both models are trained separately and saved as `.h5` files, then loaded into th
 ---
 
 ## Project Structure
-
-
+```text
 driver-drowsiness-detection/
 │
-├── DRIVER_DROWSINESS_EYE.ipynb
+├── DRIVER_DROWSINESS_EYE_GIT.ipynb
 ├── DRIVER_DROWSINESS_YAWN.ipynb
 │
 ├── DRIVER_DROWSINESS_OUTPUT/
 │ ├── models/
 │ │ ├── eye_state_model.h5
-│ │ ├── yawn_model_acc.h5
+│ │ ├── yawn_model.h5
 │ ├── main.py
 │ ├── detection.py
 │ ├── utils.py
@@ -51,7 +50,7 @@ driver-drowsiness-detection/
 ├── README.md
 ├── .gitignore
 
-
+```
 ---
 
 ## Tech Stack
